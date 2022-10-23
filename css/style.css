@@ -1,0 +1,379 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #fafafa;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 31px;
+    margin-left: 433px;
+}
+
+.header-list-link {
+    display: block;
+    padding: 47px 0;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.header-button {
+    margin-left: auto;
+    display: block;
+    margin-right: 34px;
+    padding: 8px 22px;
+    border: 1px solid #f7941e;
+    border-radius: 5px;
+    color: #f7941e;
+    background-color: transparent;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrap {
+    max-width: 433px;
+}
+
+.hero {
+    background-color: #f1f1f2;
+}
+
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    line-height: 69px;
+    margin-bottom: 36px;
+}
+
+.hero-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 60px;
+}
+
+.hero-button {
+    background: #f7941e;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    padding: 19px 25px;
+}
+
+/* About */
+.about {
+    background-color: #f1f1f2;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-title {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 23px;
+}
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 35px;
+}
+
+.about-link {
+    font-size: 18px;
+    line-height: 1.34;
+    text-transform: uppercase;
+    color: #f7941e;
+    border: 1px solid #f7941e;
+    border-radius: 5px;
+    padding: 18px 47px;
+}
+
+/* -----BENEFITS--------------- */
+
+.benefits {
+    padding-top: 96px;
+    padding-bottom: 137px;
+    background-color: #ffffff;
+}
+
+.container-two {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 30px;
+}
+
+.benefits-list-item {
+    flex-basis: calc((100% - 90px) / 4);
+    background: #fafafa;
+}
+
+.benefits-list-item-wrap {
+    padding: 24px;
+}
+
+.benefits-list-item-title {
+    margin-bottom: 74px;
+}
+
+/*------------------GET STERTED----------------------*/
+.get-started {
+    padding-top: 81px;
+    padding-bottom: 69px;
+    background: #f7941e;
+}
+.get-started-prebox {
+    display: flex;
+    gap: 229px;
+    align-items: center;
+    justify-content: center;
+}
+.get-started-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.get-started-pretext {
+    font-size: 32px;
+    line-height: 1.4;
+}
+.get-started-text {
+    font-size: 32px;
+    line-height: 1.4;
+}
+.get-started-button {
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    padding: 18px 25px;
+}
+.button-text-white {
+    background: #231f20;
+    color: #ffffff;
+}
+.button-text-black {
+    color: #000000;
+    background: transparent;
+}
+/*---------------------Section blogs--------------------*/
+
+.blogs {
+    padding-top: 88px;
+    padding-bottom: 80px;
+}
+.blogs-title {
+    font-size: 32px;
+    line-height: 1.19;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.blogs-after-title {
+    font-size: 18px;
+    line-height: 1.36;
+    text-align: center;
+    margin-bottom: 71px;
+}
+.best-wish {
+    display: flex;
+    gap: 78px;
+    background: #231f20;
+    margin-bottom: 39px;
+}
+
+.best-wish-box {
+    padding-top: 63px;
+    padding-bottom: 49px;
+}
+.best-wish-text {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-bottom: 27px;
+}
+.best-wish-title {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #ffffff;
+    max-width: 492px;
+    margin-bottom: 60px;
+}
+.best-wish-link {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+.blogs-list {
+    display: flex;
+    gap: 38px;
+}
+.blogs-item {
+    padding: 48px 49px 40px 56px;
+}
+.blogs-item-title {
+    font-size: 24px;
+    line-height: 1.4;
+    max-width: 474px;
+    margin-bottom: 16px;
+}
+.blogs-item-text {
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 474px;
+    margin-bottom: 22px;
+}
+.blogs-item-sec-text {
+    font-size: 14px;
+    line-height: 1.4;
+}
+.blogs-item:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+/*-----------------------------FOOTER----------------------*/
+.footer {
+    padding-top: 115px;
+    padding-bottom: 35px;
+    background: #fafafa;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+.footer-item-home {
+    margin-right: 81px;
+}
+.footer-item-about {
+    margin-right: 141px;
+}
+.footer-item-logo {
+    margin-right: 141px;
+}
+.footer-item-service {
+    margin-right: 54px;
+}
+.footer-nav {
+    padding-left: 270px;
+    padding-right: 286px;
+    padding-bottom: 53px;
+    border-bottom: 1px solid #000000;
+}
+
+.footer-list-link {
+    font-size: 14px;
+    line-height: 1.4;
+}
+.footer-link-logo {
+    font-size: 18px;
+    line-height: 2.1;
+    color: #f7941e;
+}
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 55px;
+    padding-bottom: 72px;
+}
+.footer-text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.footer-text {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
