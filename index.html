@@ -13,6 +13,14 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
         <link rel="stylesheet" href="./css/style.css" />
 
         <title>Gift Store</title>
@@ -21,7 +29,11 @@
         <header class="header">
             <div class="container header-container">
                 <nav class="header-nav">
-                    <a class="logo" href="./index.html">logo</a>
+                    <a
+                        class="logo animate__animated animate__flip"
+                        href="./index.html"
+                        >logo</a
+                    >
                     <ul class="header-list">
                         <li>
                             <a class="header-list-link" href="./index.html"
@@ -95,72 +107,138 @@
                         “Try our web app to find the best gifts for all
                         occasions”
                     </h3>
-                    <ul class="benefits-list">
-                        <li class="benefits-list-item">
-                            <img
-                                src="./image/image-1.jpg"
-                                alt="Photo 1"
-                                width="270"
-                                height="270"
-                            />
-                            <div class="benefits-list-item-wrap">
-                                <h4 class="benefits-list-item-title">
-                                    Birthday
-                                </h4>
-                                <a class="benefits-list-item-link" href="#"
-                                    >See More &#62;</a
-                                >
-                            </div>
-                        </li>
-                        <li class="benefits-list-item">
-                            <img
-                                src="./image/image-2.jpg"
-                                alt="Photo 2"
-                                width="270"
-                                height="270"
-                            />
-                            <div class="benefits-list-item-wrap">
-                                <h4 class="benefits-list-item-title">
-                                    Anniversary
-                                </h4>
-                                <a class="benefits-list-item-link" href="#"
-                                    >See More &#62;</a
-                                >
-                            </div>
-                        </li>
-                        <li class="benefits-list-item">
-                            <img
-                                src="./image/image-3.jpg"
-                                alt="Photo 3"
-                                width="270"
-                                height="270"
-                            />
-                            <div class="benefits-list-item-wrap">
-                                <h4 class="benefits-list-item-title">
-                                    Valentine's Day
-                                </h4>
-                                <a class="benefits-list-item-link" href="#"
-                                    >See More &#62;</a
-                                >
-                            </div>
-                        </li>
-                        <li class="benefits-list-item">
-                            <img
-                                src="./image/image-4.jpg"
-                                alt="Photo 4"
-                                width="270"
-                                height="270"
-                            />
-                            <div class="benefits-list-item-wrap">
-                                <h4 class="benefits-list-item-title">
-                                    Christmas
-                                </h4>
-                                <a class="benefits-list-item-link" href="#"
-                                    >See More &#62;</a
-                                >
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="swiper mySwiper">
+                        <ul class="benefits-list swiper-wrapper">
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-1.jpg"
+                                    alt="Photo 1"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Birthday
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-2.jpg"
+                                    alt="Photo 2"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Anniversary
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-3.jpg"
+                                    alt="Photo 3"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Valentine's Day
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-4.jpg"
+                                    alt="Photo 4"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Christmas
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-1.jpg"
+                                    alt="Photo 1"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Birthday
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-2.jpg"
+                                    alt="Photo 2"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Anniversary
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-3.jpg"
+                                    alt="Photo 3"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Valentine's Day
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="benefits-list-item swiper-slide">
+                                <img
+                                    src="./image/image-4.jpg"
+                                    alt="Photo 4"
+                                    width="270"
+                                    height="270"
+                                />
+                                <div class="benefits-list-item-wrap">
+                                    <h4 class="benefits-list-item-title">
+                                        Christmas
+                                    </h4>
+                                    <a class="benefits-list-item-link" href="#"
+                                        >See More &#62;</a
+                                    >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section class="get-started">
@@ -260,29 +338,31 @@
         </main>
         <footer class="footer">
             <div class="container-two">
-                <nav class="footer-nav">
-                    <ul class="footer-list">
-                        <li class="footer-item footer-item-home">
-                            <a class="footer-list-link" href="#">Home</a>
-                        </li>
-                        <li class="footer-item footer-item-about">
-                            <a class="footer-list-link" href="#">About</a>
-                        </li>
-                        <li class="footer-item footer-item-logo">
-                            <a
-                                class="footer-list-link footer-link-logo"
-                                href="#"
-                                >logo</a
-                            >
-                        </li>
-                        <li class="footer-item footer-item-service">
-                            <a class="footer-list-link" href="#">Service</a>
-                        </li>
-                        <li class="footer-item footer-item-blog">
-                            <a class="footer-list-link" href="#">Blog</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="third-container">
+                    <nav class="footer-nav">
+                        <ul class="footer-list">
+                            <li class="footer-item footer-item-home">
+                                <a class="footer-list-link" href="#">Home</a>
+                            </li>
+                            <li class="footer-item footer-item-about">
+                                <a class="footer-list-link" href="#">About</a>
+                            </li>
+                        </ul>
+                        <a
+                            class="footer-list-link footer-link-logo animate__animated animate__flip"
+                            href="#"
+                            >logo</a
+                        >
+                        <ul class="footer-list">
+                            <li class="footer-item footer-item-service">
+                                <a class="footer-list-link" href="#">Service</a>
+                            </li>
+                            <li class="footer-item footer-item-blog">
+                                <a class="footer-list-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
                 <ul class="footer-social-list list">
                     <li>
                         <a class="footer-social-link" href="#">
@@ -336,5 +416,21 @@
                 </div>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.mySwiper', {
+                slidesPerView: 4,
+                spaceBetween: 30,
+                autoplay: {
+                    delay: 1000,
+                },
+                freeMode: true,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
     </body>
 </html>
